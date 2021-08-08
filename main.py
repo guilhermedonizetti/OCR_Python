@@ -27,20 +27,24 @@ class OCR:
             st.info("Texto extraído")
             self.texto = self.extrair_texto(img)
             st.write("{}".format(self.texto))
+            
             #Opcao de analisar texto
             self.analisar_texto = st.sidebar.checkbox("Analisar texto")
             if self.analisar_texto==True:
                 self.mostrar_analise()
     
     def extrair_texto(self, img):
+        #O comando que extrai o texto da imagem
         texto = pytesseract.image_to_string(img, lang="por", nice=1)
         return texto
     
     def mostrar_analise(self):
+        #busca CPF, datas e palavras boas e mas na extracao
         cpf = fc.buscar_cpf(self.texto)
         datas = fc.buscar_data(self.texto)
         p_boas, percentual_bom = fc.buscar_palavras_boas(self.texto)
         p_mas, percentual_mau = fc.buscar_palavras_mas(self.texto)
+        
         if cpf==None:
             st.warning("Nenhum CPF encontrado.")
         else:
