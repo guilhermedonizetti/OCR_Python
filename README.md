@@ -8,7 +8,7 @@
  </p>
  </p>
  <br>
- <b>Objetivo: </b>O programa visa receber uma imagem como entrada, reconhecer os caracteres contidos nela e extrair esses caracteres. Uma vez que o texto foi extraído, o programa aponta quantos porcento de palavras, boas ou más, existem no texto da imagem com base num pequeno conjunto de palavras pré-registradas. Por fim, o programa busca encontrar CPF e datas.
+ <b>Objetivo: </b>O programa visa receber uma imagem como entrada, reconhecer os caracteres contidos nela e extrair esses caracteres. Uma vez que o texto foi extraído, o programa aponta quantos por cento de palavras, boas ou más, existem no texto da imagem com base num pequeno conjunto de palavras pré-registradas. Por fim, o programa busca encontrar CPF e datas.
  <br><br>
  <b>Ferramentas:</b><br>
  :heavy_check_mark: Pytesseract - biblioteca Python para aplicação OCR, documentação (https://pypi.org/project/pytesseract/).<br>
