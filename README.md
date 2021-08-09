@@ -15,7 +15,7 @@
  :heavy_check_mark: Streamlit - framework Python para construção da página web, documentação (https://docs.streamlit.io/en/stable/).<br>
  <br>
  <b>Funcionamento: </b> O projeto tem algumas imagens no diretório <code>images</code> que podem ser usadas para verificar o funcionamento do programa, para usar outras imagens deve-se observar alguns pontos:<br>
- :point_right: O programa interpreta textos em Português :brazil:<br>
+ :point_right: O programa interpreta textos em Português :brazil: ou idiomas com alfabeto similar (ex.: :us:).<br>
  :point_right: O resultado depende da qualidade da imagem.
  
  
