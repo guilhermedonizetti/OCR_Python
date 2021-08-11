@@ -1,2 +1,2 @@
 pillow
-pytesseract
+pytesseract==0.3.8
