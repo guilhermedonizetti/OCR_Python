@@ -24,6 +24,9 @@
  :green_circle: <b>Data: </b> o padrão de data para ser encontrado é exatamente xx/xx/xxxx (07/09/2020 sim, 07 de Setembro de 2020 não).<br>
  :green_circle: <b>Palavras boas e más: </b> as palavras encontradas na imagem serão verificadas se estão no conjunto de palavras boas e más. O percentual que será exibido no resultado ignora o fato de que as palavras sejam repetidas.
  
+ <br><br>
+ Para mais informações sobre o código: https://guilhermedonizettiads.medium.com/ocr-com-pytesseract-e-streamlit-15663ab85925
+ 
  
  <br><br>
  
